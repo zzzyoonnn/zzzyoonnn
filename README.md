@@ -17,15 +17,15 @@ Here are some ideas to get you started:
 
 ### Skills
 
-<a href="#"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=appveyor&logo=html5&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=appveyor&logo=css3&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=appveyor&logo=javascript&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=appveyor&logo=javascript&logoColor=white"/></a>
+<a href="#"><img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=hTML5&logoColor=white"></a>
+<a href="#"><img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css3&logoColor=white"></a>
+<a href="#"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"></a>
+<a href="#"><img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"></a>
+<a href="#"><img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=white"></a>
 <a href="#"><img src="https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=white"></a>
 <a href="#"><img src="https://img.shields.io/badge/mariaDB-003545?style=flat-square&logo=mariaDB&logoColor=white"></a>
 
 <br>
-<br><br>
 
 ### Tools
 
