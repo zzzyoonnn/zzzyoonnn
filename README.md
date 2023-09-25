@@ -37,3 +37,10 @@ Here are some ideas to get you started:
 <a href="#"><img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"></a>
 <a href="#"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"></a>
 <a href="#"><img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=Cisco&logoColor=white"></a>
+
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={zyoonshin})](https://solved.ac/{zyoonshin})
+
+<p>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zyoonshin&show_icons=true&include_all_commits=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zyoonshin&layout=compact&bg_color=30,e96443,904e95&title_color=fff&text_color=fff">
+</p>
