@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter)](https://hits.seeyoufarm.com)
+
 <!--
 **zyoonshin/zyoonshin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -40,3 +42,8 @@ Here are some ideas to get you started:
 
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=zyoonshin)](https://solved.ac/zyoonshin)
+
+<p>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zyoonshin&show_icons=true&include_all_commits=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zyoonshin&layout=compact&bg_color=30,e96443,904e95&title_color=fff&text_color=fff">
+</p>
