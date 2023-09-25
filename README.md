@@ -39,4 +39,4 @@ Here are some ideas to get you started:
 <a href="#"><img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=Cisco&logoColor=white"></a>
 
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={zyoonshin})](https://solved.ac/{zyoonshin})
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=zyoonshin)](https://solved.ac/zyoonshin)
