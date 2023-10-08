@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 ### Back-end
 
-<a href="#"><img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"></a>
+<a href="#"><img src="https://img.shields.io/badge/Java-007396.svg?style=flat-square&logo=java&logoColor=white"></a>
 <a href="#"><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"></a>
 <a href="#"><img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"></a>
 <a href="#"><img src="https://img.shields.io/badge/MYSQL-4479A1?style=flat-square&logo=MYSQL&logoColor=white"></a>
