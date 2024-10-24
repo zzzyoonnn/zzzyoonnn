@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=zyoonshin)](https://solved.ac/zyoonshin)
+
 <!--
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzzzyoonnn&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
@@ -41,8 +44,7 @@ Here are some ideas to get you started:
 <a href="#"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"></a>
 <a href="#"><img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=Cisco&logoColor=white"></a>
 
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=zyoonshin)](https://solved.ac/zyoonshin)
+
 
 <p>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zzzyoonnn&show_icons=true&include_all_commits=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff">
