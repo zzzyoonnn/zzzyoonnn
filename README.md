@@ -1,54 +1,91 @@
-### Hi there 👋
+# 👋 Hi, I'm Jiyoon
 
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=zyoonshin)](https://solved.ac/zyoonshin)
+Backend Developer focused on **transaction processing systems** and **core financial logic**.
 
-<!--
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzzzyoonnn&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+I am interested in how financial systems guarantee **atomicity, consistency, and data integrity** under concurrent transaction environments.  
+Through implementing core banking features and migrating legacy systems, I have developed a strong interest in building reliable and maintainable financial software.
+
+---
+
+# 💳 FinFlow-backend
+
+**Repository:** https://github.com/zzzyoonnn/FinFlow-backend
+
+A backend application that simulates core banking operations with a focus on transactional integrity.
+
+Designed and implemented essential banking operations including:
+
+- Deposit  
+- Withdrawal  
+- Transfer  
+- Transaction history management  
+
+## 🔎 Design Approach
+
+- Managed withdrawal and transfer operations within a single `@Transactional` boundary to ensure **atomicity**
+- Delegated validation logic (ownership, password verification, balance checks) to the **Account domain entity**
+- Prevented negative balances through explicit business rule enforcement
+- Recorded transaction history with **balance snapshots at the time of execution** for auditability
+- Structured flow clearly as: **validation → state mutation → persistence → response**
+
+Through this implementation, I became particularly interested in how financial systems prevent data inconsistency, race conditions, and double execution under concurrent requests.
+
+👉 Core Banking Service Implementation: [AccountService.java](https://github.com/zzzyoonnn/FinFlow-backend/blob/main/src/main/java/com/FinFlow/service/AccountService.java)
+
+---
+
+# 🔄 Servlet2Spring
+
+**Repository:** https://github.com/zzzyoonnn/Servlet2Spring
+
+This project reflects my growth in understanding backend architecture evolution and framework-driven design.
+
+Started with a JSP-based architecture and progressively evolved it into Spring MVC and Spring Boot.
+
+## 🔎 Migration Focus
+
+- Refactored the application into a clearer layered architecture
+- Improved separation of concerns between controller, service, and domain layers
+- Simplified configuration using Spring Boot auto-configuration
+- Enhanced security structure using Spring Security
+- Reduced boilerplate code and improved maintainability
+- Improved deployment and dependency management with Maven
+
+This migration process taught me the importance of modernizing systems **without compromising stability**, especially in environments where reliability is critical.
+
+---
+
+## 🛠 Tech Stack
+
+**Backend**
+- Java 21
+- Spring Boot
+- Spring Data JPA
+- Spring Security (JWT)
+
+**Database**
+- MySQL
+- H2 (for testing)
+
+**Infrastructure**
+- AWS (EC2, RDS, S3)
+
+**Build Tool**
+- Maven
 
 
-**zyoonshin/zyoonshin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+---
 
 
-## Stacks
+# 🎯 Professional Interest
 
-### Back-end
+- Core Banking Systems  
+- Transaction Processing  
+- Financial Data Integrity  
+- High-reliability Backend Systems  
 
-<a href="#"><img src="https://img.shields.io/badge/Java-007396.svg?style=flat-square&logo=java&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/MYSQL-4479A1?style=flat-square&logo=MYSQL&logoColor=white"></a>
+---
 
-### Tools
+# 💡 What I Aim to Build
 
-<a href="#"><img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Eclipse IDE-2C2255?style=flat-square&logo=Eclipse IDE&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=IntelliJ IDEA&logoColor=white"></a>
-<br>
-<a href="#"><img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Naver Cloud Platform-03C75A?style=flat-square&logo=Naver&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"></a>
-<a href="#"><img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=Cisco&logoColor=white"></a>
-
-
-
-<p>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zzzyoonnn&show_icons=true&include_all_commits=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zzzyoonnn&layout=compact&bg_color=30,e96443,904e95&title_color=fff&text_color=fff">
-</p>
-
--->
+I aim to build backend systems where correctness and reliability are prioritized over feature speed — especially in domains where data integrity is critical.
