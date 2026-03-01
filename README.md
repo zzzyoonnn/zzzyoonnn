@@ -36,6 +36,8 @@ Through this implementation, I became particularly interested in how financial s
 ## 📝 Related Articles
 - [계좌가 많아질 경우, 어떻게 설계하면 좋을까?🤔](https://blog.naver.com/le_voyage_03/224152326829)
 - [N+1은 왜 발생할까?🤔(Fetch Join 적용 전후 성능 비교)](https://blog.naver.com/le_voyage_03/224188438706)
+- [N+1은 왜 JPA에서 발생할까?🤔(JPQL)](https://blog.naver.com/le_voyage_03/224200219042)
+- [N+1은 메모리에 어떤 영향을 미칠까?🤔](https://blog.naver.com/le_voyage_03/224200306853)
 
 ---
 
