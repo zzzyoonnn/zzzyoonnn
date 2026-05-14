@@ -1,9 +1,16 @@
 # 👋 Hi, I'm Jiyoon
 
-Backend Developer focused on **transaction processing systems** and **core financial logic**.
+Backend Engineer focused on transaction processing systems, payment architecture, and distributed backend applications.
 
-I am interested in how financial systems guarantee **atomicity, consistency, and data integrity** under concurrent transaction environments.  
-Through implementing core banking features and migrating legacy systems, I have developed a strong interest in building reliable and maintainable financial software.
+Interested in building reliable financial systems that guarantee atomicity, consistency, and data integrity under high-concurrency environments.
+
+Currently exploring:
+- Java
+- Spring Boot
+- Kafka
+- Payment Systems
+- JVM Performance
+- Distributed Systems
 
 ---
 
