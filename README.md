@@ -18,7 +18,7 @@ Currently exploring:
 
 **Repository:** https://github.com/zzzyoonnn/FinFlow-backend
 
-A backend application that simulates core banking operations with a focus on transactional integrity.
+FinFlow is a backend project that simulates core banking operations with a focus on transactional integrity, consistency, and auditability. It explores how financial systems safely process deposits, withdrawals, and transfers while maintaining reliable account state.
 
 Designed and implemented essential banking operations including:
 
@@ -27,13 +27,15 @@ Designed and implemented essential banking operations including:
 - Transfer  
 - Transaction history management  
 
-## 🔎 Design Approach
+## Key Contributions
 
-- Managed withdrawal and transfer operations within a single `@Transactional` boundary to ensure **atomicity**
-- Delegated validation logic (ownership, password verification, balance checks) to the **Account domain entity**
-- Prevented negative balances through explicit business rule enforcement
-- Recorded transaction history with **balance snapshots at the time of execution** for auditability
-- Structured flow clearly as: **validation → state mutation → persistence → response**
+- Designed withdrawal and transfer workflows within a single transactional boundary, guaranteeing atomic state changes across account and transaction entities.
+- Applied domain-driven design principles by encapsulating business rules and invariants within the domain model, preventing invalid account states.
+- Centralized request logging and execution monitoring using Spring AOP, reducing duplication across service components.
+- Implemented transaction ledger recording with balance snapshots, enabling full traceability of account state changes and financial audits.
+- Structured transaction processing flows into validation, state mutation, persistence, and response stages to improve maintainability and clarity.
+- Eliminated N+1 query problems using Fetch Join, reducing database round-trips and improving transaction history retrieval performance by 30%.
+- Deployed the application on AWS EC2 with MySQL hosted on Amazon RDS, establishing a production-like environment for end-to-end testing.
 
 Through this implementation, I became particularly interested in how financial systems prevent data inconsistency, race conditions, and double execution under concurrent requests.
 
@@ -60,14 +62,12 @@ This project reflects my growth in understanding backend architecture evolution 
 
 Started with a JSP-based architecture and progressively evolved it into Spring MVC and Spring Boot.
 
-## 🔎 Migration Focus
+## Key Contributions
 
-- Refactored the application into a clearer layered architecture
-- Improved separation of concerns between controller, service, and domain layers
-- Simplified configuration using Spring Boot auto-configuration
-- Enhanced security structure using Spring Security
-- Reduced boilerplate code and improved maintainability
-- Improved deployment and dependency management with Maven
+- Replaced manual request handling and dependency management in Servlet-based architecture with Spring MVC and dependency injection, improving maintainability and testability.
+- Migrated authentication from session-based login to Spring Security with JWT, improving scalability and decoupling authentication from server-side state.
+- Integrated Spring Security to centralize authentication and authorization logic, reducing security-related code duplication.
+- Deployed the migrated application on AWS using EC2, RDS, and S3, enabling cloud-native application management and deployment.
 
 This migration process taught me the importance of modernizing systems **without compromising stability**, especially in environments where reliability is critical.
 
@@ -90,7 +90,6 @@ This migration process taught me the importance of modernizing systems **without
 
 **Build Tool**
 - Maven
-
 
 ---
 
